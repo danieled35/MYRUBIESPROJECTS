@@ -42,7 +42,7 @@ result=item+i
 print(result)
 
 
-# Project1 
+# Project1  
 # Reversing a list
 str="my name is daniel"
 print(str[::-1])
