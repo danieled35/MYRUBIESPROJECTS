@@ -1,6 +1,5 @@
 retry=True
 while retry:
-
     print("Welcome to the simple interest platform")
     print("This platform helps to allow you calculate your simple interest with ease")
     principal=int(input("Please enter your principle amount"))
@@ -11,7 +10,7 @@ while retry:
 
 
 
-    choice= input("Do you want to retry? (yes/no):")
+    choice= input("Do you want to re-calculate? (yes/no):")
     if choice == "no":
         retry = False
     elif choice == "yes":
